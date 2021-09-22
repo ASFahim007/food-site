@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+/* style starts here  */
+
+
+/* header section====================  */
+
+.header {
+    width: 100%;
+    background: url(../img/head/Background.png);
+    height: 140vh;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 45px;
+    align-items: center;
+    padding-right: 50px;
+    padding-bottom: 70px;
+}
+nav ul li {
+    padding-right: 50px;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+nav ul li a:hover {
+    color: #ffffffd2;
+}
+nav form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+nav form input {
+    width: 183px;
+    height: 51px;
+    border-radius: 25px;
+    background: #fff;
+    border: none;
+    font-size: 20px;
+    padding-left: 25px;
+}
+nav form input:focus {
+    box-shadow: 0 0 0 2px rgba(21, 21, 201, 0.815);
+    outline: none;
+}
+nav form a {
+    color: #343434;
+    position: absolute;
+    right: 15px;
+    font-size: 30px;
+}
+
+/* hero section ------------------ */
+.hero_left .logo{
+    padding-left: 100px;
+    width: 180px;
+    margin-bottom: 20px;
+}
+.hero_left .sub_title{
+    color: #fff;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-style: italic;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.hero_left .hero_btn button{
+    padding: 5px 25px;
+    border-radius: 21px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #2e3034;
+    background: #fff;
+    border: none;
+    margin-left: 100px;
+}
+.hero_left .hero_btn button:hover{
+    box-shadow: 0 0 0 2px rgba(21, 21, 201, 0.815);
+}
+.hero_left .text{
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+
+
+/* content section ===================== */
+
+.content {
+
+}
+.content_header .sub_title p {
+    width: 60%;
+    margin: auto;
+    font-size: 22px;
+    margin-top: 20px;
+    color: #2f3135;
+}
+.content_box {
+    margin-top: 30px;
+}
+.content_box img {
+    width: 90%;
+}
+.content_box h4 {
+    font-style: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.content_box p {
+    font-style: 17px ;
+    color: #343434;
+    padding-top: 15px;
+}
+.content_btn {
+    text-align: center;
+    margin-top: 50px;
+}
+.content_btn button {
+    font-style: 20px;
+    color: #fff;
+    background: #343434;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 15px 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/* info section ============= */
+.info {
+    background: #27292c;
+    padding-top: 30px;
+}
+.info p {
+    color: #fff;
+}
+.info_btn  button{
+    color: #27292c;
+    font-style: 25px;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 21px;
+    padding: 10px 40px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+
+/* discount section ============ */
+.dis_text {
+    padding-left: 15px;
+}
+.dis_text h1 {
+    color: #27292c;
+    font-size: 58px;
+    font-weight: 700;
+}
+.dis_text p {
+    color: #27292c;
+    font-size: 23px;
+    margin-top: 23px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.dis_text button {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    color: #27292c;
+}
+
+
+/* pizza demo section ------------ */
+.pizza {
+    height: 1000px;
+    background: url(../img/pizza/Background.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    position: relative;
+}
+.pizza_head p {
+    color: #f8f6f1;
+    font-size: 22px;
+    width: 56%;
+    text-align: center;
+    margin: auto;
+}
+.pizza_body {
+    position: absolute;
+    bottom: -150px;
+}
+
+
+
+/* lekha section ===== */
+.lekha {
+    padding: 150px 0;
+}
+.lekha_box {
+    margin-bottom: 200px;
+}
+.lekha_box img {
+    width: 75%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.lekha_bottom p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3f3f3f;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.lekha_bottom a {
+    font-size: 20px;
+    color: #3f3f3f;
+    font-weight: bold;
+    padding-top: 50px ;
+}
+
+
+/* get in touch seciton/ contact section ========= */
+.contact {
+    background: #27292c;
+    padding: 345px 0;   
+    text-align: center;
+    position: relative;
+}
+.contact_img img{
+    position: absolute;
+    top: -120px;
+    left: 0;
+}
+.contact_info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.contact_info h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.contact_info p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.contact_info .contact_form input {
+    width: 550px;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+}
+.contact_info .contact_form input:focus {
+    outline: none;
+}
+.contact_info .contact_form button {
+    font-size: 20px;
+    color: #fff;
+    background-color: #54524f;
+    border: none;
+    padding: 11px 30px;
+    border-radius: 46px;
+    position: relative;
+    right: 45px;
+}
+
+
+
+/* footer section =========== */
+footer {
+    padding: 150px 0;
+    background-color: #ffff;
+}
+.footer_title {
+    color: #343434;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+footer p {
+    color: #343434;
+    font-size: 20px;
+    padding-right: 100px;
+    margin-top: 20px;
+}
+.footer_contact i {
+    color: #343434;
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.footer_link {
+    color: #343434;
+    padding-top: 8px;
+    display: block;
+}
+.footer_link:hover {
+    color: rgb(92, 7, 7);
+}
